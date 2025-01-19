@@ -466,7 +466,7 @@ MonoBehaviour:
   streakObject: {fileID: 1451625731}
   gameOverScorePanel: {fileID: 1775235854}
   textPrefab: {fileID: 6865891745788509446, guid: 67490e5d02aff614584d07909843e339, type: 3}
-  contentPanel: {fileID: 1787847016}
+  contentPanel: {fileID: 1703816542}
   numberPrefabRight: {fileID: 2717613794462251434, guid: adf62bb3a87e63045a1958b850c32e36, type: 3}
   numberPrefabLeft: {fileID: 4166107496978354389, guid: 245d3bcb45ad3e94ebb6f9da76f0c3db, type: 3}
   numberPrefabStreak: {fileID: 8223171778143115678, guid: dbbb0a569b95baa4f833a7a66fc0ec8a, type: 3}
@@ -4626,7 +4626,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 15}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1703816543
 MonoBehaviour:
@@ -4655,18 +4655,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 0
+    m_Left: 20
     m_Right: 0
-    m_Top: 0
+    m_Top: 15
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 0
-  m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
-  m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
+  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandHeight: 0
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 1
+  m_ChildScaleHeight: 1
   m_ReverseArrangement: 0
 --- !u!1 &1774508546
 GameObject:
@@ -4950,13 +4950,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Content: {fileID: 1703816542}
-  m_Horizontal: 1
+  m_Horizontal: 0
   m_Vertical: 1
   m_MovementType: 1
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 10
   m_Viewport: {fileID: 270784897}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 1774508548}
